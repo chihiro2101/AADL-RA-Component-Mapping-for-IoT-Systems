@@ -26,9 +26,9 @@ The dataset provides:
 │
 └── Component_mapping/
     ├── mapping_files/
-    │   └── <model_name>.json
+    │   └── mapping_<model_name>.json
     └── mapping_png/
-        └── <model_name>.png
+        └── mapping_<model_name>.png
 ```
 
 ---
