@@ -115,21 +115,12 @@ The provided mappings are **manually curated ground truth**, enabling both quant
 
 ---
 
-## Ground-Truth (GT) Validation Protocol
+## Experimental Procedure
 
-Ground-truth validation is conducted using a **Google Spreadsheet** to make the process simple and accessible for participants.
+The ground-truth mappings in this repository were validated through a controlled human annotation process.
+Details of the experimental setting, materials, workload distribution, and data aggregation protocol
+are described in a separate document:
 
-The spreadsheet includes an additional sheet named **`iot_ra_components_description`**, which provides descriptions of all IoT RA components together with a visual illustration of the Reference Architecture to support a consistent understanding.
+**[Experimental Procedure and Data Collection Protocol](EXPERIMENTAL_PROTOCOL.md)**
 
-Participants are asked to:
-
-* Review the IoT Reference Architecture using the provided descriptions and visualization
-* Validate each AADL–RA component mapping by selecting a value in the **`validation_status`** column (`Correct`, `Incorrect`, or `Uncertain`)
-* Optionally suggest corrections in the **`correction_suggestion`** column
-* Use the provided graphical illustration links when needed
-
-This protocol ensures that the mappings in this repository can be reliably used as **ground truth** for further experiments.
-
-🔗 **Google Spreadsheet:**
-[https://docs.google.com/spreadsheets/d/1apI68NZzbwQeexx5ArsLfPgPYNi1pvvZiL1uL-2vijE/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1apI68NZzbwQeexx5ArsLfPgPYNi1pvvZiL1uL-2vijE/edit?usp=sharing)
 
